@@ -7,8 +7,6 @@ tags: oracle-cloud ai-trading cloud-setup
 author: Evan
 ---
 
-# AI 자동 매매 시스템을 위한 Oracle Cloud 인프라 구축기
-
 **작성일**: 2026년 5월 28일  
 **분야**: Cloud Infrastructure, DevOps  
 **난이도**: Intermediate
