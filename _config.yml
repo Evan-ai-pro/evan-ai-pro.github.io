@@ -10,7 +10,7 @@ baseurl: ""
 author: Evan
 
 # 테마 (GitHub Pages 지원)
-theme: minima
+theme: just-the-docs
 
 # 플러그인
 plugins:
@@ -22,7 +22,7 @@ markdown: kramdown
 highlighter: rouge
 
 # 포스트 설정
-show_excerpts: true  # 목록에서 글 미리보기 표시
+show_excerpts: false  # 목록에서 글 미리보기 표시
 
 # 사이트 설정
 github_username: Evan-ai-pro
