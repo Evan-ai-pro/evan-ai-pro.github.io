@@ -7,14 +7,6 @@ tags: oracle-cloud ai-trading cloud-setup
 author: Evan
 ---
 
-**작성일**: 2026년 5월 28일  
-**분야**: Cloud Infrastructure, DevOps  
-**난이도**: Intermediate
-
----
-
-## 들어가며
-
 AI 기반 자동 주식 거래 시스템을 구축하려면 안정적이고 경제적인 클라우드 인프라가 필수다. 이 글에서는 Oracle Cloud Infrastructure(OCI)를 활용하여 전용 서버를 구축하는 과정과, 그 과정에서 마주쳤던 문제와 해결 방법을 공유한다.
 
 ---
@@ -420,4 +412,6 @@ Cloud Logging + Monitoring
 
 **작성자**: Evan  
 **최종 수정**: 2026년 5월 28일  
+**분야**: Cloud Infrastructure, DevOps  
+**난이도**: Intermediate
 **상태**: Production Ready
