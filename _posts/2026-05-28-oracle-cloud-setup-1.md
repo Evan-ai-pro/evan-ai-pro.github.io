@@ -5,9 +5,26 @@ date: 2026-05-28 15:01:00 +0900
 categories: infrastructure devops
 tags: oracle-cloud ai-trading cloud-setup
 author: Evan
+description: Oracle Cloud에서 Free Tier를 활용하여 AI 거래 시스템용 서버를 구축하는 과정. ARM 기반 구축 실패, AMD로의 전환, 최종 성공까지의 전 과정을 다룬다.
 ---
 
+**작성일**: 2026년 5월 28일  
+**최종 수정**: 2026년 5월 28일  
+**분야**: Cloud Infrastructure, DevOps  
+**난이도**: Intermediate  
+**상태**: Production Ready
+
+---
+
+## 들어가며
+
 AI 기반 자동 주식 거래 시스템을 구축하려면 안정적이고 경제적인 클라우드 인프라가 필수다. 이 글에서는 Oracle Cloud Infrastructure(OCI)를 활용하여 전용 서버를 구축하는 과정과, 그 과정에서 마주쳤던 문제와 해결 방법을 공유한다.
+
+**주요 내용:**
+- Oracle Cloud Free Tier 활용
+- ARM vs AMD CPU 선택의 중요성
+- Out of host capacity 에러 해결 방법
+- 완성된 인프라 구축 및 검증
 
 ---
 
@@ -413,5 +430,5 @@ Cloud Logging + Monitoring
 **작성자**: Evan  
 **최종 수정**: 2026년 5월 28일  
 **분야**: Cloud Infrastructure, DevOps  
-**난이도**: Intermediate
+**난이도**: Intermediate  
 **상태**: Production Ready
