@@ -50,6 +50,10 @@ collections:
   tags:
     output: true
     permalink: /:collection/:name/
+# 다크 테마
+color_scheme: dark
+
+footer_content: "Copyright &copy; 2026 Evan. All rights reserved."
 
 # 빌드 설정
 exclude:
