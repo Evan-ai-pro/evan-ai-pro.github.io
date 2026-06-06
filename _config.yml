@@ -27,6 +27,15 @@ github_username: Evan-ai-pro
 # 시간대
 timezone: Asia/Seoul
 
+# 다크 모드 설정
+minima:
+  skin: dark
+
+# 헤더 메뉴 설정 (우측 상단 메뉴 버튼)
+header_pages:
+  - about.md
+  - contact.md
+
 # 기본값
 defaults:
   - scope:
