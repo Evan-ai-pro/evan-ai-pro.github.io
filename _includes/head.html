@@ -1,0 +1,76 @@
+{%- if site.google_analytics -%}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+{%- endif %}
+
+<style>
+/* 다크 모드 강제 적용 */
+html, body {
+  background-color: #1d1d1d !important;
+  color: #c5c5c5 !important;
+}
+
+body {
+  background-color: #1d1d1d !important;
+  color: #c5c5c5 !important;
+}
+
+.site-header {
+  background-color: #1d1d1d !important;
+  border-bottom-color: #404040 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #e8e8e8 !important;
+}
+
+a {
+  color: #09f !important;
+}
+
+code {
+  background-color: #2d2d2d !important;
+  color: #c5c5c5 !important;
+}
+
+pre {
+  background-color: #2d2d2d !important;
+  color: #c5c5c5 !important;
+  border-color: #404040 !important;
+}
+
+table th {
+  background-color: #2d2d2d !important;
+  color: #c5c5c5 !important;
+  border-color: #404040 !important;
+}
+
+table td {
+  border-color: #404040 !important;
+  color: #c5c5c5 !important;
+}
+
+.site-footer {
+  background-color: #1d1d1d !important;
+  border-top-color: #404040 !important;
+  color: #c5c5c5 !important;
+}
+
+blockquote {
+  border-left-color: #404040 !important;
+  color: #a8a8a8 !important;
+}
+
+.post-meta {
+  color: #a8a8a8 !important;
+}
+
+.site-nav .page-link {
+  color: #09f !important;
+}
+</style>
